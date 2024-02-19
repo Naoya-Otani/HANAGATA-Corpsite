@@ -12,10 +12,10 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply sticky top-0 z-50  bg-white py-6 transition-all duration-300 lg:bg-transparent;
+  @apply sticky top-0 z-50 bg-white/70 py-6 transition-all duration-300;
 
   &-sticky {
-    @apply bg-white shadow;
+    @apply shadow;
   }
 }
 
@@ -26,8 +26,8 @@ input#nav-toggle:checked ~ #nav-menu {
 
 .navbar-brand {
   @apply text-xl font-semibold text-dark;
-  image {
-    @apply max-h-full max-w-full;
+  img {
+    @apply max-h-full md:max-w-full hidden md:block;
   }
 }
 

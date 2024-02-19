@@ -1,69 +1,63 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
-  image: /images/banner-img.png
+  title: "全ての可能性を <br> つなぐ、ひろげる"
+  content: "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています。<br> HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
+  image: /images/object/screen1.png
   button:
-    label: Download The Theme
+    label: アギラー
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+    enable: false
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Our Mission"
+  description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+      title: 自由なキャリアデザイン
+      content: 自らのキャリアをデザインし実現できる世界を創ります。
+    - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
+      title: 新たな価値と新たな可能性
+      content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
+    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
+      title: 人々の生活を豊かに
+      content: 新たな価値の最大化に努め、人々への還元に努めます。
 
-#service
+##our values
+our_values:
+  title: "Our Values"
+  description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
+  feature_list:
+    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+      title: 自由なキャリアデザイン
+      content: 自らのキャリアをデザインし実現できる世界を創ります。
+    - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
+      title: 新たな価値と新たな可能性
+      content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
+    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
+      title: 人々の生活を豊かに
+      content: 新たな価値の最大化に努め、人々への還元に努めます。
+
+# First Section
 service:
   homepage_tab:
     title: Prevent failure from to impacting your reputation
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
-        - title: Habit building essential choose habit
-          icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-        - title: Get an overview of Habit Calendars.
-          icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/collaboration.png"
-        - title: Start building with Habitify platform
-          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
+      - title: Habit building essential choose habit
+        icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/object/mobile.png"
+      - title: Get an overview of Habit Calendars.
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/object/mobile2.png"
+      - title: Start building with Habitify platform
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/object/desktop.png"
 
   our_service:
     - title: Accept payments any country in this whole universe
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+      image: "/images/object/screen3.png"
       list:
         - Supporting more than 119 country world
         - Open transaction with more than currencies
@@ -71,7 +65,7 @@ service:
     - title: Accountability that works for you
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       video:
-        thumbnail: "/images/intro-thumbnail.png"
+        thumbnail: "/images/object/laptop.png"
         video_id: "g3-VxLQO7do"
       button:
         label: Know About Us

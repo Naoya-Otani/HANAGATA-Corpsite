@@ -17,18 +17,11 @@ const { homepage_tab, our_service } = service;
             {item.image && (
               <div class="relative">
                 <Image
-                  class="w-full object-contain"
+                  class="w-full object-contain animate-bounce-slow"
                   alt="service"
-                  width={667}
-                  height={498}
+                  width={500}
+                  height={500}
                   src={item.image}
-                />
-                <Image
-                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/shape-2.png"
-                  alt=""
-                  height={147}
-                  width={151}
                 />
               </div>
             )}

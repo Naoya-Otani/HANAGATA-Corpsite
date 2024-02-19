@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "HANAGATA Studio",
+    "base_url": "https://example.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "favicon": "/images/hanagata_logo_16px.png",
+    "logo": "/images/logo_text_16px.png",
+    "logo_width": "362",
+    "logo_height": "32",
+    "logo_text": "HANAGATA"
   },
 
   "settings": {
@@ -18,11 +18,11 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "全ての学生が輝ける社会",
+    "description": "HANAGATA Studioでは、KABUTOを通して全ての学生が輝ける社会を提供します。",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "KABUTOへ",
+      "link": "https://example.com"
     }
   },
 
@@ -33,17 +33,17 @@
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "",
+    "email": "hanagata@studio.com",
+    "location": "Tokyo, Japan",
+    "phone": "",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 HANAGATA Studio"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "HANAGATA Studio",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "HANAGATA Studioは、KABUTOを通して全ての学生が輝ける社会を提供します。"
   }
 }
