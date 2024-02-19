@@ -1,50 +1,44 @@
 ---
 banner:
-  title: "全ての学生が輝ける社会"
-  content: "私たちはサンプルテキストを書くことにより、あなたにより良いキャリアパスを歩めるような"
+  title: "全ての可能性を <br> つなぐ、ひろげる"
+  content: "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています。<br> HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
   image: /images/object/screen1.png
   button:
     label: アギラー
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
+    enable: false
 
 ##key features
 key_features:
-  title: "HANAGATAのミッション"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Our Mission"
+  description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: SaaS
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: 自由なキャリアデザイン
+      content: 自らのキャリアをデザインし実現できる世界を創ります。
+    - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
+      title: 新たな価値と新たな可能性
+      content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
     - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      title: 人々の生活を豊かに
+      content: 新たな価値の最大化に努め、人々への還元に努めます。
 
-#service
+##our values
+our_values:
+  title: "Our Values"
+  description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
+  feature_list:
+    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+      title: 自由なキャリアデザイン
+      content: 自らのキャリアをデザインし実現できる世界を創ります。
+    - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
+      title: 新たな価値と新たな可能性
+      content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
+    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
+      title: 人々の生活を豊かに
+      content: 新たな価値の最大化に努め、人々への還元に努めます。
+
+# First Section
 service:
   homepage_tab:
     title: Prevent failure from to impacting your reputation
