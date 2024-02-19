@@ -62,6 +62,30 @@ module.exports = {
         primary: ["var(--font-primary)", fontPrimaryType],
         secondary: ["var(--font-secondary)", fontSecondaryType],
       },
+      keyframes: {
+        "bounce-sm": {
+          "0%, 100%": {
+            transform: "translateY(-10%)",
+            "animation-timing-function": "cubic-bezier(0.8,0,1,1)",
+          },
+          "50%": {
+            transform: "none",
+            "animation-timing-function": "cubic-bezier(0,0,0.4,1)",
+          },
+        },
+        "fade-in": {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        "bounce-slow": "bounce-sm 3s infinite",
+        "fade-in": "fade-in 2s",
+      },
     },
   },
   plugins: [

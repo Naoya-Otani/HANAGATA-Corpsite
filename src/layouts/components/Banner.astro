@@ -3,15 +3,16 @@ import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 const { banner } = Astro.props;
 const { title, button, image, content } = banner;
+
 ---
 
 <section class="section banner relative">
   <div class="container">
     <div class="row items-center">
       <div class="lg:col-6">
-        <h1 class="banner-title" set:html={markdownify(title)} />
+        <h1 class="banner-title animate-fade-in" set:html={markdownify(title)} />
 
-        <p class="mt-6" set:html={markdownify(content)} />
+        <p class="mt-6 animate-fade-in" set:html={markdownify(content)} />
 
         {
           button.enable && (
@@ -21,9 +22,9 @@ const { title, button, image, content } = banner;
           )
         }
       </div>
-      <div class="lg:col-6">
+      <div class="lg:col-6 flex justify-end">
         <Image
-          class="w-full object-contain"
+          class="w-[80%] object-contain animate-bounce-slow pointer-events-none"
           alt="banner"
           src={image}
           width={603}

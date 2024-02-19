@@ -2,7 +2,7 @@
 banner:
   title: "全ての学生が輝ける社会"
   content: "私たちはサンプルテキストを書くことにより、あなたにより良いキャリアパスを歩めるような"
-  image: /images/object/3d_man.png
+  image: /images/object/screen1.png
   button:
     label: アギラー
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -52,18 +52,18 @@ service:
     tab_list:
       - title: Habit building essential choose habit
         icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/object/mobile.png"
       - title: Get an overview of Habit Calendars.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/collaboration.png"
+        image: "/images/object/mobile2.png"
       - title: Start building with Habitify platform
         icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/object/desktop.png"
 
   our_service:
     - title: Accept payments any country in this whole universe
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+      image: "/images/object/screen3.png"
       list:
         - Supporting more than 119 country world
         - Open transaction with more than currencies
@@ -71,7 +71,7 @@ service:
     - title: Accountability that works for you
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       video:
-        thumbnail: "/images/intro-thumbnail.png"
+        thumbnail: "/images/object/laptop.png"
         video_id: "g3-VxLQO7do"
       button:
         label: Know About Us

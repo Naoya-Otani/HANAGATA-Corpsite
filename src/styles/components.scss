@@ -39,18 +39,17 @@
 .tab {
   @apply overflow-hidden rounded-lg border border-border;
   &-nav {
-    @apply flex border-b border-border bg-theme-light;
+    @apply flex border-b border-border bg-white;
     @apply m-0 #{!important};
     @apply list-none #{!important};
 
     &-item {
-      @apply cursor-pointer border-b-[3px] border-border py-2 text-lg opacity-80;
+      @apply cursor-pointer border-b-[2px] text-dark border-border py-2 text-lg opacity-80;
       @apply my-0 #{!important};
-      @apply text-dark #{!important};
       @apply px-8 #{!important};
 
       &.active {
-        @apply border-b-[3px] border-dark opacity-100;
+        @apply border-b-[2px] bg-primary opacity-100;
       }
     }
   }
@@ -292,18 +291,6 @@ select:invalid {
     @apply relative;
   }
 
-  &-play-btn {
-    @apply absolute left-1/2 top-1/2 z-10 flex h-[78px] w-[78px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-primary;
-    animation: shadow-pulse 1.5s infinite;
-    svg {
-      @apply h-6 w-5 fill-white text-white;
-    }
-    &::after {
-      @apply absolute left-0 top-0 h-full w-full rounded-full content-[''];
-      animation: shadow-pulse-2 1.4s infinite;
-    }
-  }
-
   @keyframes shadow-pulse {
     0% {
       box-shadow: 0 0 0 0px rgba(254, 96, 25, 0.7);
@@ -407,7 +394,7 @@ select:invalid {
   }
 
   .tab-nav-item {
-    @apply mb-4 flex rounded py-0 text-dark opacity-100;
+    @apply mb-4 flex items-center rounded py-1 gap-x-2 text-dark opacity-100;
   }
   .tab-nav-item.active {
     @apply border-b-0 bg-primary/40 py-3.5;
