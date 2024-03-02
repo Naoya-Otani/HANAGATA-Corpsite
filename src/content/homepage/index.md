@@ -1,7 +1,9 @@
 ---
 banner:
   title: "全ての可能性を <br> つなぐ、ひろげる"
-  content: "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています。<br> HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
+  content: "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています
+            <br><br>
+            HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
   image: /images/object/screen1.png
   button:
     label: アギラー
@@ -15,7 +17,7 @@ key_features:
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
       title: 自由なキャリアデザイン
-      content: 自らのキャリアをデザインし実現できる世界を創ります。
+      content: 自らのキャリアを自分の意思でデザインし実現できる世界を創ります。
     - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
       title: 新たな価値と新たな可能性
       content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
@@ -41,7 +43,7 @@ our_values:
 # First Section
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
+    title: 我々の強み
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
       - title: Habit building essential choose habit
