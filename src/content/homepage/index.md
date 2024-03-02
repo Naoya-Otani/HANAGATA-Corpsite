@@ -1,9 +1,10 @@
 ---
 banner:
   title: "全ての可能性を <br> つなぐ、ひろげる"
-  content: "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています
-            <br><br>
-            HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
+  content:
+    "私たち HANAGATA Studio. は、デザインとテクノロジーを融合させた新しい価値を創造し、人々の生活を豊かにすることを目指しています
+    <br><br>
+    HANAGATA Studio. creates new value by fusing design and technology, and aim to enrich people's lives."
   image: /images/object/screen1.png
   button:
     label: アギラー
@@ -12,7 +13,7 @@ banner:
 
 ##key features
 key_features:
-  title: "Our Mission"
+  title: "経営理念"
   description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
@@ -27,24 +28,24 @@ key_features:
 
 ##our values
 our_values:
-  title: "Our Values"
-  description: "我々はテクノロジーを用いてキャリアをデザインします。<br> We design careers with technology."
+  title: "行動規範"
+  description: "我々は3つの行動規範を基盤に革新的なプロダクトを作成します。<br> We create innovative products based on three codes of conduct."
   feature_list:
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: 自由なキャリアデザイン
-      content: 自らのキャリアをデザインし実現できる世界を創ります。
-    - icon: "unlock" #icon package react-feather-icon [https://feathericons.com/]
-      title: 新たな価値と新たな可能性
-      content: 全ての個人の可能性の最大化を目指し、新しい価値を創造します。
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: 人々の生活を豊かに
-      content: 新たな価値の最大化に努め、人々への還元に努めます。
+    - icon: "plus" #icon package react-feather-icon [https://feathericons.com/]
+      title: "新しい価値創造への挑戦"
+      content: 我々は時代の最先端に立ち、”テクノロジーを駆使して次の時代をデザインする”役目を担います。したがって常に新しい価値を創造し、世の中に良い影響を生み出します。
+    - icon: "eye" #icon package react-feather-icon [https://feathericons.com/]
+      title: 常識にとらわれない
+      content: 常識を疑うことは知的好奇心をドライバーに革新的なアイデアを生み出すことを意味します。常に常識に疑問を持ち、より良い世界の構築に挑戦します。
+    - icon: "heart" #icon package react-feather-icon [https://feathericons.com/]
+      title: 誠実でいること
+      content: 我々は顧客と世界に対して誠実に行動し、長期にわたって還元し続けます。顧客本位を忘れずに愛され続けるプロダクトを作ります。
 
 # First Section
 service:
   homepage_tab:
     title: 我々の強み
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    description: 
     tab_list:
       - title: Habit building essential choose habit
         icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
